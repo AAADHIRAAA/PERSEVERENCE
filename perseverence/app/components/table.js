@@ -44,7 +44,7 @@ const Spreadsheet = () => {
         accessor: "linkedin",
       },
       {
-        Header: "SkillRacl",
+        Header: "SkillRack",
         accessor: "skillrack",
       },
     ],
@@ -71,7 +71,7 @@ const Spreadsheet = () => {
   return (
     <>
       <div style={{ marginTop: "50px" }}>
-        <h1 className="custom-heading">Digitization Stats</h1>
+        <h1 className="custom-heading">Daily goal</h1>
 
         <div className=" overflow-x-auto">
           <table {...getTableProps()} className="divide-y divide-gray-200">

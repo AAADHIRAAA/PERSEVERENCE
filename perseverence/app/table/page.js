@@ -1,7 +1,6 @@
 "use client"
 import React from 'react';
-import Spreadsheet from '../components/spreadsheet';
-import Header from "../components/Header";
+import Spreadsheet from '../components/table';
 import Image from 'next/image';
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
   };
   return (
     <>
-    <Header/>
+    
     <div>
       
       <Spreadsheet />
